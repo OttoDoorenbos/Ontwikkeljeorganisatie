@@ -1,0 +1,169 @@
+/* Custom Stylesheet */
+
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav ul a, nav .brand-logo {
+  color: #444;
+}
+
+ul:not(.dropdown-content) {
+  list-style-type: initial !important;
+  padding-left: 20px !important;
+}
+
+li:not(.dropdown-content) {
+  list-style-type: initial !important;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.anchor {
+  display: block;
+  position: relative;
+  top: -120px;
+  visibility: hidden;
+}
+
+.colorF1 {
+  color: #6fa3c6;
+}
+
+.colorF2 {
+  color: #9980d1;
+}
+
+.bgColorF2 {
+  background-color: #9980d1;
+}
+
+.colorF3 {
+  color: #73a89f;
+}
+
+.colorF4 {
+  color: #adad42;
+}
+
+.colorF5 {
+  color: #d394b7;
+}
+
+.colorF6 {
+  color: #6fa3c6;
+}
+
+.colorF7 {
+  color: #ce8142;
+}
+
+.dropdown-content {
+  width: auto !important;
+}
+
+.dropdown-content li>a, .dropdown-content li>span {
+  color: #444 !important;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.ow {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(28, 29, 32, 0.9);
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.navbar-fixed {
+  height: 120px;
+  transition: 0.4s;
+}
+
+.navbar-fixed nav {
+  height: 120px;
+  transition: 0.4s;
+}
+
+nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
+  height: 120px;
+  line-height: auto;
+  transition: 0.4s;
+}
+
+.nav_title {
+  display: table-cell !important;
+  vertical-align: middle;
+  height: 120px;
+  transition: 0.4s;
+}
+
+nav .sidenav-trigger {
+  float: right;
+  position: relative;
+  z-index: 1;
+  height: 56px;
+  margin: 0 18px;
+}
+
+nav ul a {
+  padding: 0 10px;
+}
+
+/* Style the logo */
+
+#logo {
+  height: 120px;
+  transition: 0.4s;
+}
