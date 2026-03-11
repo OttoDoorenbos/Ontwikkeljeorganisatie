@@ -28,7 +28,3 @@ function scrollFunction() {
     }
   }
 }
-
-var d = new Date();
-
-currentYear = d.getFullYear();
